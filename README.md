@@ -2,11 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
 
-## Development server
+## Software Dependencies
+- Download Install NodeJs from `https://nodejs.org/en/`
 
+## Development server
+- Go to Project directory
 - Install npm Dependencies using `npm install`,
 - Run `npm start` for a dev server.
-- Navigate to `http://localhost:5005/`. The app will automatically reload if you change any of the source files.
+- Navigate to `http://localhost:5005/` on your browser. The app will automatically reload if you change any of the source files.
 
 
 ## Build
