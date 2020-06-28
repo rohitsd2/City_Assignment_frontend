@@ -1,0 +1,49 @@
+<!-- Top nav bar -->
+<div class="row form-group justify-content-md-center">
+  <div class="col-md-3">
+    <input class="form-control" type="date" [(ngModel)]="start_date" />
+  </div>
+  <div class="col-md-3">
+    <input class="form-control" type="date" [(ngModel)]="end_date" />
+  </div>
+  <div class="col-md-2">
+    <button class="btn btn-primary" (click)="filterCityByDate()">Search</button>
+  </div>
+</div>
+<!--! Top nav bar -->
+
+<!-- City Information -->
+<div class="row">
+  <div class="col-md-12" id="cityList">
+    <div class="container">
+      <table class="table table-bordered table-top">
+        <thead>
+          <tr>
+            <th>Id <i class="fa fa-sort" aria-hidden="true" (click)="SortColumnValues($event,'id')"></i></th>
+            <th>City <i class="fa fa-sort" aria-hidden="true" (click)="SortColumnValues($event,'city')"></i></th>
+            <th>Start Date <i class="fa fa-sort" aria-hidden="true" (click)="SortColumnValues($event,'start_date')"></i>
+            </th>
+            <th>End Date <i class="fa fa-sort" aria-hidden="true" (click)="SortColumnValues($event,'end_date')"></i>
+            </th>
+            <th>Price <i class="fa fa-sort" aria-hidden="true" (click)="SortColumnValues($event,'price')"></i></th>
+            <th>Status <i class="fa fa-sort" aria-hidden="true" (click)="SortColumnValues($event,'status')"></i></th>
+            <th>Color <i class="fa fa-sort" aria-hidden="true" (click)="SortColumnValues($event,'color')"></i></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let city of cityList | paginate: { itemsPerPage: 15, currentPage: p } ;let i = index">
+            <td>{{city.id}}</td>
+            <td>{{city.city}}</td>
+            <td>{{city.start_date | date}}</td>
+            <td>{{city.end_date | date}}</td>
+            <td>{{city.price}}</td>
+            <td>{{city.status}}</td>
+            <td>{{city.color}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  </div>
+</div>
+<!--! City Information -->

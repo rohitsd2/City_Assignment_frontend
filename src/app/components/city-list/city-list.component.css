@@ -1,0 +1,14 @@
+#cityList thead tr th {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: rgb(112, 173, 214);
+}
+
+.table-top {
+    height: 300px;
+    margin-top: 5px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
