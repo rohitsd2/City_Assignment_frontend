@@ -24,3 +24,5 @@ For each comment there is specific keyword in start of commit message like new,c
 - `wip` : Work in progress on some functionality,
 - `fix` : Fixed some issue and then push,
 - `chg` : change in previous functionality
+
+
