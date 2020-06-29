@@ -29,12 +29,10 @@ For each comment there is specific keyword in start of commit message like new,c
 - `chg` : change in previous functionality
 
 ## Refrences
-https://i.postimg.cc/BLR7KkgV/city-assignemnt-1.png[/img][/url]
+<img src="/images/color.png" width="500" height="300"/>
+<img src="/images/city_assignment_date_filter.png" width="500" height="300"/>
+<img src="/images/city_assignment_sort.png" width="500" height="300"/>
+<img src="/images/city_assignemnt_1.png" width="500" height="300"/>
 
-https://i.postimg.cc/NLrzcGGq/city-assignment-date-filter.png[/img][/url]
-
-https://i.postimg.cc/JGVd4wty/city-assignment-sort.png[/img][/url]
-
-https://i.postimg.cc/PPWVC68S/color.png[/img][/url]
 
 
