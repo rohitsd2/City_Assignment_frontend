@@ -28,4 +28,13 @@ For each comment there is specific keyword in start of commit message like new,c
 - `fix` : Fixed some issue and then push,
 - `chg` : change in previous functionality
 
+## Refrences
+[url=https://postimg.cc/mz6f6mSY][img]https://i.postimg.cc/mz6f6mSY/city-assignemnt-1.png[/img][/url]
+
+[url=https://postimg.cc/YLGKcQXJ][img]https://i.postimg.cc/YLGKcQXJ/city-assignment-date-filter.png[/img][/url]
+
+[url=https://postimg.cc/Yjhwmwpb][img]https://i.postimg.cc/Yjhwmwpb/city-assignment-sort.png[/img][/url]
+
+[url=https://postimg.cc/F18Xynzm][img]https://i.postimg.cc/F18Xynzm/color.png[/img][/url]
+
 

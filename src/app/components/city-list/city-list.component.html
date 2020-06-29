@@ -38,7 +38,7 @@
             <td>{{city.end_date | date}}</td>
             <td>{{city.price}}</td>
             <td>{{city.status}}</td>
-            <td>{{city.color}}</td>
+            <td [style.color]="city.color">{{city.color}}</td>
           </tr>
         </tbody>
       </table>
