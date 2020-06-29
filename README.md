@@ -29,10 +29,10 @@ For each comment there is specific keyword in start of commit message like new,c
 - `chg` : change in previous functionality
 
 ## Refrences
-<img src="/images/color.png" width="500" height="300"/>
-<img src="/images/city_assignment_date_filter.png" width="500" height="300"/>
-<img src="/images/city_assignment_sort.png" width="500" height="300"/>
-<img src="/images/city_assignemnt_1.png" width="500" height="300"/>
+<img src="/images/color.png" width="600" height="350"/>
+<img src="/images/city_assignment_date_filter.png" width="600" height="350"/>
+<img src="/images/city_assignment_sort.png" width="600" height="350"/>
+<img src="/images/city_assignemnt_1.png" width="600" height="350"/>
 
 
 
